@@ -1,7 +1,6 @@
 module.exports = function multiply(first, second) {
     first = first.split('').reverse();
     second = second.split('').reverse();
-
     let resultInArray = [];
     first.map((itemOfFirst, indexOfFirst) => {
       second.map((itemOfSecond, indexOfSecond) => {
